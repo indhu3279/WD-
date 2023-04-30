@@ -1,0 +1,90 @@
+.circle{
+    width: 300px;
+    height: 300px;
+    background-color:magenta;
+    transition: background-color 1s 1s; 
+}
+.circle:hover{
+    background-color: cyan;
+    border-radius: 50%;
+}
+body{
+    background-color:#2B3467;
+    margin:0px;
+}
+div{
+    width:200px;
+    height:200px;
+    background-color: pink;
+}
+
+#one{
+    background-color: #e38;
+    border-width: 5px;
+    border-color: black;
+    border-style:double;
+    box-sizing: border-box;
+    margin:20px;
+}
+#two{
+    background-color: #e456;
+    border-width: 6px;
+    border-color: #e45;
+    padding-right:50px;
+    padding-top:10px;
+}
+#three{
+    background-color: #f464;
+    border: 5px solid black;
+    border-left-style:dotted;
+    border-radius: 50px;
+    padding:10px;
+}
+section div{
+    height:100px;
+    width:100px;
+    background-color:turquoise;
+    margin:20px 0;
+    transition: margin-left 3s;
+}
+section:hover div{
+    margin-left:500px;
+}
+#ex div{
+    height:100px;
+    width:100px;
+    background-color: #e547e5;
+    margin:20px 0;
+    transition: margin-left 3s;
+}
+#ex:hover div{
+    margin-left:500px;
+}
+#ex div:nth-of-type(1){
+    transition-timing-function: ease-in;
+}
+#ex div:nth-of-type(2){
+    transition-timing-function: ease-out;
+}
+#ex div:nth-of-type(3){
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+#ex div:nth-of-type(4){
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+button{
+    background: none;
+    color:#ffa260;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25, transform 0.25s;
+    
+}
+button:hover {
+    border-color: #f1ff5c;
+    color:white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor:pointer;
+}

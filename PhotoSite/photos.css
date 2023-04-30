@@ -1,0 +1,13 @@
+body{
+    background: color #e786e7;;
+}
+img{
+    width:30%;
+    margin:calc(10%/6);
+}
+nav{
+    margin:calc(10%/6);
+    padding :10px 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+}
